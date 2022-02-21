@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Góp Ý</title>
+    <link rel="stylesheet" href="gopy.css">
+</head>
+<body>
+    <header class="dautrang">
+        <strong>Sở Giáo Dục Đào Tạo Vĩnh Long <br>
+                Trường THPT Trần Đại Nghĩa
+        </strong>
+        
+        <img class="anhtruong" src="hanh/anhdau.png" width="500px" style="height: 170px;">
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><a href="./Assginment_GD1.html">Trang Chủ</a></li>
+            <li><a href="../Assignment/gioithieu.html" target="self">Giới Thiệu</a></li>
+            <li><a href="./Lienhe.html" >Liên Hệ</a></li>
+            <li><a href="./Gopy.html" target="self">Góp Ý</a></li>
+            <li><a href="./Kehoachgiaoduc.html">Kế Hoạch Giáo Dục</a></li>
+            
+        </ul>
+    </nav>
+    
+    <form action="xu-ly.php" method="post" enctype="multipart/form-data">
+        
+        <h3>Mọi sự góp ý gửi theo mẫu dưới đây:</h3> <br>
+        <input class="form-tt" type="text" name="hoten" placeholder="Họ và tên"> <br>
+        <input type="text" class="form-tt"  name="diachi" placeholder="Địa chỉ"> <br>
+        <input type="password"  class="form-tt" name="sodienthoai" placeholder="Số điện thoại"> <br>
+        <input type="email"  class="form-tt" placeholder="Email"> <br>
+        <textarea  class="form-nd" cols="20" rows="15" placeholder="Nội Dung"></textarea> <br>
+        <button class="form-button" type="submit">Gửi</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,94 @@
+
+
+.dautrang{
+   
+    width: 100%;
+    height: 250px;
+    position:relative;
+    background-color: cornsilk;
+}
+.dautrang strong{
+    position:absolute;
+    left:680px;
+    top: 20px;
+
+}
+
+
+header.dautrang> img{
+    padding-top:70px;
+    padding-left: 540px;
+
+}
+.menu{
+    list-style: none; 
+  background-color:dodgerblue;
+    height:50px;
+    font-size: 20px;
+    margin:0px;
+    padding-left:505px;
+    
+}
+
+ul.menu>li>a:link{
+    color:White;
+}
+ul.menu>li>a:hover{
+    color:brown;
+}
+ul.menu>li>a:visited{
+    color:lightsalmon;
+}
+a{
+    
+    
+    text-decoration: none;
+}
+.menu li{
+   float: left;
+    margin: 0 10px;
+    padding-top: 15px;
+    
+    
+}
+h2{
+    text-align:center;
+    color:firebrick;
+    padding-top: 10px;
+}
+input{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+textarea{
+    margin-top: 30px;
+}
+.form-tt{
+    width:50%;
+    outline:none;
+   border:1px solid black;
+   border-radius:3px;
+}
+.form-nd{
+    width:70%;
+    margin-left: 13px;
+}
+.form-button{
+padding:8px 30px;
+outline:none;
+ border:none;
+ border-radius:20px;
+ font-weight:bold;
+ background-color:white;
+ color:orangered;
+ margin-top: 10px;
+ margin-left: 20px;
+  box-shadow:inset 0 0 20px  aqua;
+} 
+ 
+.form-button:hover{
+    color:blue;
+    box-shadow:inset 0 0 20px orangered;
+ } 
+
+ 
